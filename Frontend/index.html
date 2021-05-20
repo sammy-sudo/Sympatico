@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+  <title>Sympatico | Home</title>
+</head>
+<div class="nav">
+  <div class="overlays">
+   <a href="index.html">
+    <h4 id="logo">SYMPATICO</h4>
+   </a>
+   <div class="links">
+    <a id="links" href="#">ABOUT US</a>
+    <a id="links" href="#">SERVICES</a>
+    <a id="links" href="#">CONTACT US</a>
+    <a id="links" href="#">FAQ</a>
+   </div>
+    <div class="login">
+      <img src="../static/css/Images/login.png">
+    </div>
+    <div class="profile">
+      <a href="{{ url_for('logout') }}">
+        <p>Logout</p>
+      </a>
+    </div>
+    <div class="user">
+      <a href="#">
+        <button id="sign-up">SIGN UP</button>
+      </a>
+      <a href="#">
+        <button id="sign-in">SIGN IN</button>
+      </a>
+    </div>
+   <div class="burger">
+     <div class="line1"></div>
+     <div class="line2"></div>
+     <div class="line3"></div>
+   </div>
+  </div>
+ </div>
+ <body id="body">
+  <div class="text">
+    <h4>Digitizing the property industry</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque quam sed veniam sit sint sunt tempora excepturi maiores adipisci eos exercitationem, esse, sequi odio dolore, ducimus non aspernatur sapiente incidunt!</p>
+    <button>Learn More</button>
+  </div>
+  <div class="info">
+    <h4 data-aos="fade-up" data-aos-duration="1000">What is Sympatico all about</h4>
+    <p data-aos="fade-up" data-aos-duration="1000">Sympatico is a digital system designed for property managers to meet their every need from managing their clients and also managing their properties.The system works by blending everything under one system thus making it easy for property managers to manage their properties and also because of this it eases pressure on the property managers as the clients can also interact with the system and assist them with all their needs.</p>
+    <button id="btn" data-aos="fade-up" data-aos-duration="1000">Learn More</button>
+  </div>
+  <div class="work">
+    <h4 data-aos="fade-up" data-aos-duration="1000">our area of expertise</h4>
+    <div class="grid">
+      <div class="item-1" data-aos="slide-right" data-aos-duration="1000">
+        <h4>Apartments</h4>
+      </div>
+      <div class="item-2" data-aos="slide-left" data-aos-duration="1000">
+        <h4>Residential</h4>
+      </div>
+      <div class="item-3" data-aos="slide-right" data-aos-duration="1000">
+        <h4>Offices</h4>
+      </div>
+      <div class="item-4" data-aos="slide-left" data-aos-duration="1000">
+        <h4>Warehouse</h4>
+      </div>
+    </div>
+    <div class="project">
+      <h4>projects done so far</h4>
+      <div class="grid"></div>
+    </div>
+  </div>
+  <div class="more-info">
+    <div class="section" data-aos="slide-right" data-aos-duration="1000">
+      <div id="image">
+        <img src="Images/efficiency.png">
+      </div>
+      <div id="text-info" data-aos="fade-up" data-aos-duration="1500">
+        <h4>Designed with efficiency in mind</h4>
+        <p>The system is designed to be as efficient as possible by providing you with all the information you need in one platform</p>
+        <button id="discover">Discover</button>
+      </div>
+    </div>
+    <div class="section" data-aos="slide-left" data-aos-duration="1000">
+      <div id="image">
+        <img src="Images/simplicity.jpg">
+      </div>
+      <div id="text-info" data-aos="fade-up" data-aos-duration="1500">
+        <h4>Designed with simplicity in mind</h4>
+        <p>The system is designed to be as simple to use by designing a user-friendly interface that any user can be comfortable with</p>
+        <button id="discover">Discover</button>
+      </div>
+    </div>
+  </div>
+  <div class="subscribe">
+    <h4>Subscribe to our news letter by signing up</h4>
+  </div>
+  <div class="contacts">
+    <div class="address" data-aos="fade-up">
+      <h4>Address</h4>
+      <p>Bitcoin Lounge, Kenyatta University</p>
+      <p>Off Thika Road</p>
+    </div>
+    <div class="system" data-aos="fade-up">
+      <h4>system</h4>
+      <p>Landlord Portal</p>
+      <p>Tenant Portal</p>
+    </div>
+    <div class="other" data-aos="fade-up">
+      <h4>Company</h4>
+      <p>ICT Support</p>
+      <p>Legal</p>
+      <p>Other links</p>
+    </div>
+    <div class="social" data-aos="fade-up">
+      <h4>Get in touch</h4>
+      <i class="fa fa-instagram" style="font-size: 25px"></i>
+      <i class="fa fa-facebook" style="font-size: 25px"></i>
+      <i class="fa fa-twitter" style="font-size: 25px"></i>
+      <i class="fa fa-linkedin-square" style="font-size: 25px"></i>
+    </div>
+  </div>
+  <a class="top" href="#body">V</a>
+  <div class="footer">
+    <p>Copyright &copy; SYMPATICO <span id="date"></span>. All Rights Reserved</p>
+  </div>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="index.js"></script>
+ </body>
+ </html>
